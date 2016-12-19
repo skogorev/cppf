@@ -1,0 +1,2 @@
+# cppf
+C++ fun library
