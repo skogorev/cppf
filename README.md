@@ -38,7 +38,7 @@ public:
   void set(int a) {
     ...
   }
-}
+};
 
 int a = 3;
 B b_obj;
@@ -59,6 +59,6 @@ CPPF_DEFER([](){
 
 // lambda with some capture params [should be framed brackets](http://stackoverflow.com/a/33016577/4402730)
 CPPF_DEFER(([a, &b_obj] () {
-  b_obj.set(2, a);
+  b_obj.set(a);
 }));
 ```
