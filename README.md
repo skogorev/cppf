@@ -1,7 +1,7 @@
 # cppf
 C++ fun library
 
-## Defer
+## Defer `include "cppf/defer.hpp"`
 Golang defer analog for C++.
 
 Usage example #1:
