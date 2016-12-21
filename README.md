@@ -1,7 +1,8 @@
 # cppf
 C++ fun library
 
-## Defer ## `#include "cppf/defer.hpp"`
+## Defer
+`#include "cppf/defer.hpp"` [declaration](https://github.com/skogorev/cppf/blob/master/include/cppf/defer.hpp)
 [Golang defer](https://tour.golang.org/flowcontrol/12) analog for C++.
 A defer statement defers the call of a function until end of block.
 
